@@ -2,17 +2,21 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>My contact information</title>
+        <title>Contact me</title>
     </head>
     <body>
-        <h1>My contact information</h1>
-        <h2>Adress</h2>
-        <p>
-            Teststraat 000001
-            <br>
-            8800 Rumbeke
-            <br>
-            Belgium
-        </p>
+        <h1>Get in touch!</h1>
+        <form action="mailto:jorisdebien@gmail.com" method="post" enctype="text/plain">
+            <label>Your name:</label><br>
+            <input type=text name="name">
+            <br><br>
+            <label>Your email:</label><br>            
+            <input type=email name="email">
+            <br><br>
+            <label>Message:</label><br>
+            <textarea rows=10 name="message"></textarea>
+            <br><br>
+            <input type=submit>
+        </form>
     </body>
 </html>
