@@ -1,5 +1,6 @@
 body {
-    color: #191919;
+    color: #ECDBBA;
+    background-color: #2D4263;
     text-align: center;
 }
 
@@ -7,6 +8,8 @@ table {
     margin-left: auto;
     margin-right: auto;
     text-align: left;
+    border-collapse: separate;
+    border-spacing: 30px 10px;
 }
 
 thead {
@@ -21,6 +24,10 @@ h1 {
 
 h3 {
     color:#C84B31; 
+}
+
+a {
+    color: #ECDBBA;
 }
 
 hr {
