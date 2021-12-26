@@ -1,0 +1,33 @@
+body {
+    color: #191919;
+    text-align: center;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+thead {
+    color:#C84B31; 
+    text-align: center;   
+}
+
+h1 {
+    color:#C84B31; 
+    text-align: center;   
+}
+
+h3 {
+    color:#C84B31; 
+}
+
+hr {
+    border-color: #191919;
+    border-width: 5px;
+    border-style: none;
+    border-top-style: dotted;
+    width: 10%;
+}
+
