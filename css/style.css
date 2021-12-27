@@ -1,0 +1,65 @@
+/*
+SELECTORS
+Class- & id-selectors will override html tag selectors
+Use class if you want to group repeating elements
+Use id for unique elements
+
+Best practice: linters warn against using ids --> use classes
+*/
+
+
+/* General */
+body {
+    background-color: #2D4263;
+    color: #ECDBBA;
+    text-align: center;
+}
+
+a {
+    color: #ECDBBA;
+}
+
+hr {
+    border-color: #191919;
+    border-width: 5px;
+    border-style: none;
+    border-top-style: dotted;
+    width: 10%;
+}
+
+ul {
+    display: table;
+    margin: 0 auto;
+    text-align: left;
+}
+
+/* Tables */
+table {
+    border-collapse: separate;
+    border-spacing: 30px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+
+}
+
+thead {
+    color:#C84B31; 
+    text-align: center;   
+}
+
+/* Headers */
+h1 {
+    color:#C84B31; 
+    font-size: 50px;
+    text-align: center; 
+    margin-bottom: 10px;
+}
+
+h1:hover {
+    color:grey;
+}
+
+h3 {
+    color:#C84B31; 
+}
