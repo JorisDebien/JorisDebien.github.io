@@ -35,14 +35,16 @@ a {
     border-bottom: solid;
     border-color: #191919;
     padding: 20px;
+    text-align: left;
 }
 
 .profile-picture {
     border: solid;
     border-color: #191919;
     border-radius: 50%;
-    margin-top: 25px;
+    margin: 25px 25px 0 25px;
     width: 200px;
+    float: left;
 }
 
 .name {
@@ -52,14 +54,42 @@ a {
     margin: 0px;
 }
 
-/*** Professional content ***/
-.professional-container {
-    padding: 20px;
+/*** Contact info ***/
+.contact-container {
+    background-color: #ECDBBA;
+    color: #191919;
+    border-bottom: solid;
+    border-color: #191919;
+    padding: 15px;
+    text-align: left;
 }
 
+.footer-link {
+    color: #191919;
+}
+
+/*** Professional content ***/
+.career-container {
+    padding: 20px;
+    margin: 0 auto;
+    text-align: left;
+    width: 50%;
+}
+
+.skill-container {
+    padding: 20px;
+    margin: 0 auto;
+    text-align: left;
+    width: 50%;
+}
+
+
+/*** Personal content ***/
 .extra-container {
     padding: 20px;
-    height: auto;
+    margin: 0 auto;
+    text-align: left;
+    width: 50%;
 }
 
 .extra-images {
@@ -68,15 +98,8 @@ a {
     border-color: #191919;  
     position: inline-block;
     object-fit: cover;
-    margin: 0 30px;    
-    height: 200px;
-    width: 200px;
+    margin: 0 20px;    
+    height: 120px;
+    width: 120px;
 }
 
-/*** Contact info ***/
-.contact-container {
-    background-color: #C84B31;
-    border-top: solid;
-    border-color: #191919;
-    padding: 15px;
-}
