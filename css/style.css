@@ -1,6 +1,7 @@
 /*** General ***/
 body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -31,7 +32,8 @@ a {
 /*** Welcome content ***/
 .welcome-container { 
     background-color: #C84B31;
-    height: auto;
+    border-bottom: solid;
+    border-color: #191919;
     padding: 20px;
 }
 
@@ -46,17 +48,17 @@ a {
 .name {
     color: #191919;
     font-family: Licorice;
-    font-size: 5em;
+    font-size: 75px;
+    margin: 0px;
 }
 
 /*** Professional content ***/
 .professional-container {
-    padding: 15px;
-    height: auto;
+    padding: 20px;
 }
 
 .extra-container {
-    padding: 15px;
+    padding: 20px;
     height: auto;
 }
 
@@ -73,7 +75,8 @@ a {
 
 /*** Contact info ***/
 .contact-container {
-    margin: 0;
-    padding: 15px;
     background-color: #C84B31;
+    border-top: solid;
+    border-color: #191919;
+    padding: 15px;
 }
