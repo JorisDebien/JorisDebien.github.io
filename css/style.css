@@ -1,21 +1,10 @@
-/*
-SELECTORS
-Class- & id-selectors will override html tag selectors
-Use class if you want to group repeating elements
-Use id for unique elements
-
-Best practice: linters warn against using ids --> use classes
-*/
-
-
-/* General */
+/*** General ***/
 body {
-    background-color: #2D4263;
-    color: #ECDBBA;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
     text-align: center;
-}
-
-a {
+    background-color: #2D4263;  
     color: #ECDBBA;
 }
 
@@ -27,39 +16,64 @@ hr {
     width: 10%;
 }
 
-ul {
-    display: table;
-    margin: 0 auto;
-    text-align: left;
-}
-
-/* Tables */
 table {
     border-collapse: separate;
     border-spacing: 30px 10px;
     margin-left: auto;
     margin-right: auto;
     text-align: left;
-
 }
 
-thead {
-    color:#C84B31; 
-    text-align: center;   
+a {
+    color: #ECDBBA;
 }
 
-/* Headers */
-h1 {
-    color:#C84B31; 
-    font-size: 50px;
-    text-align: center; 
-    margin-bottom: 10px;
+/*** Welcome content ***/
+.welcome-container { 
+    background-color: #C84B31;
+    height: auto;
+    padding: 20px;
 }
 
-h1:hover {
-    color:grey;
+.profile-picture {
+    border: solid;
+    border-color: #191919;
+    border-radius: 50%;
+    margin-top: 25px;
+    width: 200px;
 }
 
-h3 {
-    color:#C84B31; 
+.name {
+    color: #191919;
+    font-family: Licorice;
+    font-size: 5em;
+}
+
+/*** Professional content ***/
+.professional-container {
+    padding: 15px;
+    height: auto;
+}
+
+.extra-container {
+    padding: 15px;
+    height: auto;
+}
+
+.extra-images {
+    border: solid;  
+    border-radius: 50%;
+    border-color: #191919;  
+    position: inline-block;
+    object-fit: cover;
+    margin: 0 30px;    
+    height: 200px;
+    width: 200px;
+}
+
+/*** Contact info ***/
+.contact-container {
+    margin: 0;
+    padding: 15px;
+    background-color: #C84B31;
 }
