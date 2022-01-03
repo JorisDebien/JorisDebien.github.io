@@ -1,12 +1,20 @@
+/*** Reset ***/
+* {
+    margin: 0;
+    padding: 0;
+}
+
 /*** General ***/
 body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
-    margin: 0;
-    padding: 0;
     text-align: center;
     background-color: #2D4263;  
     color: #ECDBBA;
+}
+
+h2 {
+    margin: 20px 0;
 }
 
 hr {
@@ -15,13 +23,13 @@ hr {
     border-style: none;
     border-top-style: dotted;
     width: 10%;
+    margin: auto;
 }
 
 table {
     border-collapse: separate;
     border-spacing: 30px 10px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     text-align: left;
 }
 
@@ -30,12 +38,16 @@ a {
 }
 
 /*** Welcome content ***/
+.welcome-screen {
+    display: flexbox;
+}
+
 .welcome-container { 
     background-color: #C84B31;
     border-bottom: solid;
     border-color: #191919;
     padding: 20px;
-    text-align: left;
+    text-align: center;
 }
 
 .profile-picture {
@@ -44,7 +56,6 @@ a {
     border-radius: 50%;
     margin: 25px 25px 0 25px;
     width: 200px;
-    float: left;
 }
 
 .name {
@@ -54,14 +65,13 @@ a {
     margin: 0px;
 }
 
-/*** Contact info ***/
 .contact-container {
     background-color: #ECDBBA;
     color: #191919;
     border-bottom: solid;
     border-color: #191919;
     padding: 15px;
-    text-align: left;
+    text-align: center;
 }
 
 .footer-link {
