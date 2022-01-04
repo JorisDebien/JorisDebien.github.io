@@ -39,14 +39,15 @@ a {
 }
 
 /*** Welcome content ***/
+#welcome {
+    background-color: #C84B31;
+}
+
 .welcome-screen {
     display: flexbox;
 }
 
 .welcome-container { 
-    background-color: #C84B31;
-    border-bottom: solid;
-    border-color: #191919;
     padding: 20px;
     text-align: center;
 }
