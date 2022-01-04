@@ -41,11 +41,10 @@ a {
 /*** Welcome content ***/
 #welcome {
     background-color: #C84B31;
+    border-bottom: 3px solid;
+    border-color: #191919;
 }
 
-.welcome-screen {
-    display: flexbox;
-}
 
 .welcome-container { 
     padding: 20px;
