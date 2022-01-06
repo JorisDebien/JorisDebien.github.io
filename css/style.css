@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+section + section {
+    margin: 150px;
+}
+
 /*** General ***/
 body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -41,14 +45,9 @@ a {
 /*** Welcome content ***/
 #welcome {
     background-color: #C84B31;
+    padding-top: 80px;
     border-bottom: 3px solid;
     border-color: #191919;
-}
-
-
-.welcome-container { 
-    padding: 20px;
-    text-align: center;
 }
 
 .profile-picture {
@@ -64,19 +63,6 @@ a {
     font-family: Licorice;
     font-size: 75px;
     margin: 0px;
-}
-
-.contact-container {
-    background-color: #ECDBBA;
-    color: #191919;
-    border-bottom: solid;
-    border-color: #191919;
-    padding: 15px;
-    text-align: center;
-}
-
-.footer-link {
-    color: #191919;
 }
 
 /*** Professional content ***/
