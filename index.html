@@ -26,7 +26,7 @@
 
     <body>
         <!-- Nav Bar -->
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <!-- <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand" href="index.html"><i class="fas fa-angle-double-right"></i> Joris Debien</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -45,89 +45,95 @@
                 </li>
             </ul>
             </div>
-        </nav>
+        </nav> -->
 
-        <section id="welcome">                     
-                <img class=profile-picture src="images/jorisCircle.png" alt="Profile picture Joris">
-                <h1 class=name>I'm Joris.</h1>
-                <p>A software professional with an eye for quality, and a passion for the people making software.</p>
+        <section id="welcome">
+            <div class="row">
+                <div class="col-3 col-left">
+                    <img class=profile-picture src="images/jorisCircle.png" alt="Profile picture Joris">
+                </div>
+                <div class="col-9 col-right">
+                    <h1 class=name>I'm Joris.</h1>
+                    <p>A software professional with an eye for quality, and a passion for the people making software.</p>
+                </div>                
+            </div>
+            <div id="socials">
+                <!-- Links to socials -->
+                <a class="footer-link" href="mailto:jorisdebien@gmail.com"><i class="fas fa-envelope"></i> Mail</a>
+                <a class="footer-link"href="https://www.linkedin.com/in/jorisdebien/"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a class="footer-link" href="https://twitter.com/JorisDebien"><i class="fab fa-twitter"></i> Twitter</a>
+            </div>              
         </section>
   
         <section id="about-me">
-                <h2>Who am I?</h2>
-                <p class="intro">During my 10+ years working in software development, I've helped build complex backends and managed teams of more than 25 people. 
-                    Along the years I've been a bit of everything - tester, analist, project manager, and engineering manager.
-                    One thing I've learned is that software development has more to do with people than with code, so my primary focus will always be the people involved in making software. 
-                    Think I can help? Get in touch!
-                </p>
+            <div class="content-container">
+                <div class="row">
+                    <div class="col-3 col-left">
+                        <h2>Who am I?</h2>
+                    </div>
+                    <div class="col-9 col-right">
+                        <p class="intro">During my 10+ years working in software development, I've helped build complex backends and managed teams of more than 25 people. 
+                            Along the years I've been a bit of everything - tester, analist, project manager, and engineering manager.
+                            If I've learned on thing, it's that developing great software has more to do with people than with code, so my primary focus will always be the people involved in making software. 
+                            Think I can help? Get in touch!
+                        </p>
+                    </div>
+                </div> 
+            </div>
         </section>
+
+ 
 
         <section id="career">
-            <h2>My career so far</h2>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Year(s)</th>
-                        <th>Position</th>
-                    </tr>
-                </thead>
-                <tbody>
-                <tr>
-                    <td>2021 - Present</td>
-                    <td>Head of Delivery at <a href="https://www.accentjobs.be/nl/" target="_blank">Accent Jobs</a></td>
-                </tr>
-                <tr>
-                    <td>2019 - 2021</td>
-                    <td>Software Development Teamlead at <a href="https://www.accentjobs.be/nl/" target="_blank">Accent Jobs</a></td>                
-                </tr>
-                <tr>
-                    <td>2016 - 2019</td>
-                    <td>Test Lead at <a href="https://www.accentjobs.be/nl/" target="_blank">Accent Jobs</a></td>
-                </tr>
-                <tr>
-                    <td>2014 - 2016</td>
-                    <td>Software Tester at <a href="https://www.accentjobs.be/nl/" target="_blank">Accent Jobs</a></td>
-                </tr>
-                <tr>
-                    <td>2013 - 2014</td>
-                    <td>Software Tester at Prodata Mobility Systems</td>
-                </tr>
-                <tr>
-                    <td>2011 - 2013</td>
-                    <td>Software Tester at Saga Consulting</td>
-                </tr>
-                </tbody>
-            </table>  
+            <div class="content-container">
+                <div class="row">
+                    <div class="col-3 col-left">
+                        <h2>My career</h2>
+                    </div>
+                    <div class="col-9 col-right">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Year(s)</th>
+                                    <th>Position</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>2021 - Present</td>
+                                <td>Head of Delivery at <a href="https://www.accentjobs.be/nl/" target="_blank">Accent Jobs</a></td>
+                            </tr>
+                            <tr>
+                                <td>2019 - 2021</td>
+                                <td>Software Development Teamlead at <a href="https://www.accentjobs.be/nl/" target="_blank">Accent Jobs</a></td>                
+                            </tr>
+                            <tr>
+                                <td>2016 - 2019</td>
+                                <td>Test Lead at <a href="https://www.accentjobs.be/nl/" target="_blank">Accent Jobs</a></td>
+                            </tr>
+                            <tr>
+                                <td>2014 - 2016</td>
+                                <td>Software Tester at <a href="https://www.accentjobs.be/nl/" target="_blank">Accent Jobs</a></td>
+                            </tr>
+                            <tr>
+                                <td>2013 - 2014</td>
+                                <td>Software Tester at Prodata Mobility Systems</td>
+                            </tr>
+                            <tr>
+                                <td>2011 - 2013</td>
+                                <td>Software Tester at Saga Consulting</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
         </section>
-          
+                      
 
-        <hr>
-
-        <div class="skill-container">
-            <h2>Skills</h2>
-            <table>
-                <tr>
-                    <td>People management</td>
-                    <td>Engineering management</td>
-                    <td>Change advocacy</td>
-                </tr>
-                <tr>
-                    <td>Software testing</td>
-                    <td>Web development</td>
-                    <td>Training</td>
-                </tr>
-            </table>
-        </div>
- 
-        <section id="contact">
-            <a class="footer-link" href="mailto:jorisdebien@gmail.com"><i class="fas fa-envelope"></i> Mail</a>
-            <a class="footer-link"href="https://www.linkedin.com/in/jorisdebien/"><i class="fab fa-linkedin"></i> LinkedIn</a>
-            <a class="footer-link" href="https://twitter.com/JorisDebien"><i class="fab fa-twitter"></i> Twitter</a>
-        </section>
-
-        <hr>
-
-        </div>      
+            
+                    
+   
         <div class=extra-container>
             <h2>Hobbies and interests</h2>
             <img class="extra-images" src="images/wargaming.jpg" alt="wargaming">

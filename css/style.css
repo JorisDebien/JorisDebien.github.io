@@ -5,7 +5,7 @@
 }
 
 section + section {
-    margin: 150px;
+    margin: 5rem;
 }
 
 /*** General ***/
@@ -15,10 +15,6 @@ body {
     text-align: center;
     background-color: #2D4263;  
     color: #ECDBBA;
-}
-
-h2 {
-    margin: 20px 0;
 }
 
 hr {
@@ -33,20 +29,31 @@ hr {
 table {
     border-collapse: separate;
     border-spacing: 30px 10px;
-    margin: auto;
     text-align: left;
 }
 
 a {
-    padding: 15px;
     color: #ECDBBA;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #C84B31;
+}
+
+.col-left {
+    text-align: right;
+    padding-right: 2rem;
+}
+
+.col-right {
+    text-align: left;
+    padding-left: 2rem;
 }
 
 /*** Welcome content ***/
 #welcome {
     background-color: #C84B31;
-    padding-top: 80px;
-    border-bottom: 3px solid;
     border-color: #191919;
 }
 
@@ -54,7 +61,7 @@ a {
     border: solid;
     border-color: #191919;
     border-radius: 50%;
-    margin: 25px 25px 0 25px;
+    margin: 25px;
     width: 200px;
 }
 
@@ -62,29 +69,16 @@ a {
     color: #191919;
     font-family: Licorice;
     font-size: 75px;
-    margin: 0px;
+    margin: 25px 0 5px 0;
 }
 
-/*** Professional content ***/
-.intro-container {
-    padding: 20px;
-    margin: 0 auto;
-    text-align: left;
-    width: 50%;
-    line-height: 2em;
-}
-.career-container {
-    padding: 20px;
-    margin: 0 auto;
-    text-align: left;
-    width: 50%;
+.footer-link {
+    padding-right: 18px;
 }
 
-.skill-container {
-    padding: 20px;
-    margin: 0 auto;
-    text-align: left;
-    width: 50%;
+/* Socials */
+#socials {
+    background-color: #191919;
 }
 
 
