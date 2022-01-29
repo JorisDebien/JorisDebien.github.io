@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+.row {
+    --bs-gutter-x: 0;
+}
+
 section + section {
     margin: 5rem;
 }
@@ -15,15 +19,6 @@ body {
     text-align: center;
     background-color: #2D4263;  
     color: #ECDBBA;
-}
-
-hr {
-    border-color: #191919;
-    border-width: 5px;
-    border-style: none;
-    border-top-style: dotted;
-    width: 10%;
-    margin: auto;
 }
 
 table {
@@ -41,6 +36,10 @@ a:hover{
     color: #C84B31;
 }
 
+h2 {
+    font-weight: bold;
+}
+
 .col-left {
     text-align: right;
     padding-right: 2rem;
@@ -49,6 +48,7 @@ a:hover{
 .col-right {
     text-align: left;
     padding-left: 2rem;
+    padding-right: 5rem;
 }
 
 /*** Welcome content ***/
@@ -91,13 +91,8 @@ a:hover{
 }
 
 .extra-images {
-    border: solid;  
-    border-radius: 50%;
-    border-color: #191919;  
-    position: inline-block;
     object-fit: cover;
-    margin: 0 20px;    
-    height: 120px;
-    width: 120px;
+    border-radius: 20px;
+    height: 30rem;   
 }
 
