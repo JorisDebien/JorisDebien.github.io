@@ -25,6 +25,7 @@ table {
     border-collapse: separate;
     border-spacing: 30px 10px;
     text-align: left;
+    width: 100%;
 }
 
 a {
@@ -94,5 +95,29 @@ h2 {
     object-fit: cover;
     border-radius: 20px;
     height: 30rem;   
+}
+
+
+/*** Career ***/
+h5 {
+    font-weight: bold;
+}
+
+.accordion-button.collapsed {
+    background-color: #C84B31;
+    border-color: #191919;
+    border-radius:15px;
+    color: #ECDBBA;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #C84B31;
+    border-color: #191919;
+    color: #ECDBBA;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    border-color: rgba(0,0,0,.125);
 }
 
