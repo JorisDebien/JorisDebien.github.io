@@ -124,3 +124,8 @@ h5 {
     border-radius: 40px;
 }
 
+
+/*** Carousel ***/
+.carousel-text {
+    text-shadow: 2px 2px 2px black;
+}
