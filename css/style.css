@@ -106,7 +106,6 @@ h5 {
 .accordion-button.collapsed {
     background-color: #C84B31;
     border-color: #191919;
-    border-radius:15px;
     color: #ECDBBA;
 }
 
@@ -119,5 +118,9 @@ h5 {
 .accordion-button:focus {
     box-shadow: none;
     border-color: rgba(0,0,0,.125);
+}
+
+.accordion-header {
+    border-radius: 40px;
 }
 
